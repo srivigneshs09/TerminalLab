@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777050459453",
+    "project_id": "terminallab-d97cb",
+    "storage_bucket": "terminallab-d97cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777050459453:android:247400e42ba18439be8954",
+        "android_client_info": {
+          "package_name": "com.example.terminallab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlzwLm4L5TUzkf7iXGRlxoHLsoj6O_56I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

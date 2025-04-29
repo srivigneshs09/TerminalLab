@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Dialogues" android:id="@+id/dialog_button"/>
+    <item android:title="Send SMS" android:id="@+id/send_sms_button"/>
+    <item android:title="Location" android:id="@+id/location_button"/>
+    <item android:title="Shared Prefs" android:id="@+id/sharedpref_button"/>
+    <item android:title="Firebase" android:id="@+id/firebase"/>
+</menu>
