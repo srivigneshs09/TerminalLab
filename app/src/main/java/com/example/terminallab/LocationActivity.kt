@@ -43,6 +43,7 @@ class LocationActivity : AppCompatActivity() {
                     } else {
                         Toast.makeText(this, "Invalid latitude or longitude", Toast.LENGTH_SHORT).show()
                     }
+
                 } catch (e: NumberFormatException) {
                     Toast.makeText(this, "Please enter valid numbers", Toast.LENGTH_SHORT).show()
                 }

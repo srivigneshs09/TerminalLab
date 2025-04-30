@@ -65,4 +65,7 @@ class FirebaseActivity : AppCompatActivity() {
     }
 }
 
-data class User(val name: String = "", val email: String = "")
+data class User(
+    val name: String = "",
+    val email: String = ""
+)
