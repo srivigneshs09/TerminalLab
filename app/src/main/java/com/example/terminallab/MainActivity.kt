@@ -61,6 +61,36 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.animation -> {
+                Toast.makeText(this, "Animation Selected", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, AnimationActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.media -> {
+                Toast.makeText(this, "Media Selected", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, MediaActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.camera -> {
+                Toast.makeText(this, "Camera Selected", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, CameraActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.wifi -> {
+                Toast.makeText(this, "Wifi Selected", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, WifiActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.bluetooth -> {
+                Toast.makeText(this, "Bluetooth Selected", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, BluetoothActivity::class.java)
+                startActivity(intent)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

@@ -35,11 +35,7 @@ class SMSActivity : AppCompatActivity() {
             if (phoneNumber.isNotEmpty() && message.isNotEmpty()) {
                 sendSms(phoneNumber, message, statusText)
             } else {
-                Toast.makeText(
-                    this,
-                    "Please enter both phone number and message",
-                    Toast.LENGTH_SHORT
-                ).show()
+                Toast.makeText(this, "Please enter both phone number and message", Toast.LENGTH_SHORT).show()
             }
         }
     }

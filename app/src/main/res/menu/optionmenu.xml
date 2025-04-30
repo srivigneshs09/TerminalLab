@@ -7,4 +7,10 @@
     <item android:title="Location" android:id="@+id/location_button"/>
     <item android:title="Shared Prefs" android:id="@+id/sharedpref_button"/>
     <item android:title="Firebase" android:id="@+id/firebase"/>
+    <item android:title="Animation" android:id="@+id/animation"/>
+    <item android:title="Media" android:id="@+id/media"/>
+    <item android:title="Camera" android:id="@+id/camera"/>
+    <item android:title="Wifi" android:id="@+id/wifi"/>
+    <item android:title="Bluetooth" android:id="@+id/bluetooth"/>
+
 </menu>
